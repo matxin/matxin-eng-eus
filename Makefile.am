@@ -1,6 +1,6 @@
 ###############################################################################
 
-LANG1=spa
+LANG1=eng
 LANG2=eus
 
 PREFIX1=$(LANG1)-$(LANG2)
@@ -13,6 +13,7 @@ TARGETS_COMMON=$(PREFIX1).verb_transfer.fst \
 	       $(PREFIX1).cfg \
  	       $(PREFIX1).changes_sint.dat \
 	       $(PREFIX1).chunk_type.dat \
+	       $(PREFIX1).chunk_rules.dat \
 	       $(PREFIX1).interchunk_move1.dat \
 	       $(PREFIX1).interchunk_move2.dat \
 	       $(PREFIX1).interchunk_move3.dat \
@@ -40,7 +41,7 @@ $(PREFIX1).bilingual.bin: $(BASENAME).bilingual_mur.xml
 $(PREFIX1).changes_morph.bin: $(BASENAME).changes_morph.xml
 	lt-comp lr $< $@
 
-$(PREFIX1).cfg: $(AP_SRC1)/matxin-$(LANG1).$(LANG1).cfg
+$(PREFIX1).chunk_rules.dat: $(AP_SRC1)/matxin-$(LANG1).chunk_rules.dat
 	cat $<  > $@
 
 $(PREFIX1).changes_sint.dat: $(BASENAME).changes_sint.dat
@@ -101,13 +102,13 @@ EXTRA_DIST= $(BASENAME).bilingual_mur.xml \
 	$(BASENAME).intrachunk_move.dat \
 	$(BASENAME).lexical_selection.dat \
 	$(BASENAME).prep.dat \
-	$(BASENAME).spa-eus.cfg \
+	$(BASENAME).$(PREFIX1).cfg \
 	$(BASENAME).verb_transfer.foma
 
-matxin_spa_eusdir=$(prefix)/share/matxin/$(BASENAME)
-matxin_spa_eus_srcdir=$(prefix)/share/matxin/$(BASENAME)
+matxin_eng_eusdir=$(prefix)/share/matxin/$(BASENAME)
+matxin_eng_eus_srcdir=$(prefix)/share/matxin/$(BASENAME)
 
-matxin_spa_eus_DATA=$(TARGETS_COMMON)
+matxin_eng_eus_DATA=$(TARGETS_COMMON)
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode

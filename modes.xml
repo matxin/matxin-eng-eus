@@ -3,7 +3,7 @@
 
   <mode name="eng-eus-analyser" install="no">
     <pipeline>
-      <program name="matxin-stanford -f">
+      <program name="matxin-stanford -chunkRules">
         <file name="eng-eus.chunk_rules.dat"/>
       </program>
     </pipeline>
@@ -12,8 +12,8 @@
 
   <mode name="eng-eus-xfer-lex" install="no">
     <pipeline>
-      <program name="matxin-stanford -f">
-        <file name="eng-eus.cfg"/>
+      <program name="matxin-stanford -chunkRules">
+        <file name="eng-eus.chunk_rules.dat"/>
       </program>
       <program name="matxin-xfer-lex"> 
         <file name="eng-eus.bilingual.bin"/>
@@ -26,8 +26,8 @@
 
   <mode name="eng-eus-xfer-intra" install="no">
     <pipeline>
-      <program name="matxin-stanford -f">
-        <file name="eng-eus.cfg"/>
+      <program name="matxin-stanford -chunkRules">
+        <file name="eng-eus.chunk_rules.dat"/>
       </program>
       <program name="matxin-xfer-lex"> 
         <file name="eng-eus.bilingual.bin"/>
@@ -43,8 +43,8 @@
 
   <mode name="eng-eus-xfer-inter1" install="no">
     <pipeline>
-      <program name="matxin-stanford -f">
-        <file name="eng-eus.cfg"/>
+      <program name="matxin-stanford -chunkRules">
+        <file name="eng-eus.chunk_rules.dat"/>
       </program>
       <program name="matxin-xfer-lex"> 
         <file name="eng-eus.bilingual.bin"/>
@@ -63,8 +63,8 @@
 
   <mode name="eng-eus-xfer-adpos" install="no">
     <pipeline>
-      <program name="matxin-stanford -f">
-        <file name="eng-eus.cfg"/>
+      <program name="matxin-stanford -chunkRules">
+        <file name="eng-eus.chunk_rules.dat"/>
       </program>
       <program name="matxin-xfer-lex"> 
         <file name="eng-eus.bilingual.bin"/>
@@ -88,8 +88,8 @@
 
   <mode name="eng-eus-xfer-inter2" install="no">
     <pipeline>
-      <program name="matxin-stanford -f">
-        <file name="eng-eus.cfg"/>
+      <program name="matxin-stanford -chunkRules">
+        <file name="eng-eus.chunk_rules.dat"/>
       </program>
       <program name="matxin-xfer-lex"> 
         <file name="eng-eus.bilingual.bin"/>
@@ -116,8 +116,8 @@
 
   <mode name="eng-eus-xfer-verb" install="no">
     <pipeline>
-      <program name="matxin-stanford -f">
-        <file name="eng-eus.cfg"/>
+      <program name="matxin-stanford -chunkRules">
+        <file name="eng-eus.chunk_rules.dat"/>
       </program>
       <program name="matxin-xfer-lex"> 
         <file name="eng-eus.bilingual.bin"/>
@@ -147,8 +147,8 @@
 
   <mode name="eng-eus-xfer-inter3" install="no">
     <pipeline>
-      <program name="matxin-stanford -f">
-        <file name="eng-eus.cfg"/>
+      <program name="matxin-stanford -chunkRules">
+        <file name="eng-eus.chunk_rules.dat"/>
       </program>
       <program name="matxin-xfer-lex"> 
         <file name="eng-eus.bilingual.bin"/>
@@ -181,8 +181,8 @@
 
   <mode name="eng-eus-gen-inter" install="no">
     <pipeline>
-      <program name="matxin-stanford -f">
-        <file name="eng-eus.cfg"/>
+      <program name="matxin-stanford -chunkRules">
+        <file name="eng-eus.chunk_rules.dat"/>
       </program>
       <program name="matxin-xfer-lex"> 
         <file name="eng-eus.bilingual.bin"/>
@@ -218,8 +218,8 @@
 
   <mode name="eng-eus-gen-intra" install="no">
     <pipeline>
-      <program name="matxin-stanford -f">
-        <file name="eng-eus.cfg"/>
+      <program name="matxin-stanford -chunkRules">
+        <file name="eng-eus.chunk_rules.dat"/>
       </program>
       <program name="matxin-xfer-lex"> 
         <file name="eng-eus.bilingual.bin"/>
@@ -259,8 +259,8 @@
 
   <mode name="eng-eus-gen-move" install="no">
     <pipeline>
-      <program name="matxin-stanford -f">
-        <file name="eng-eus.cfg"/>
+      <program name="matxin-stanford -chunkRules">
+        <file name="eng-eus.chunk_rules.dat"/>
       </program>
       <program name="matxin-xfer-lex"> 
         <file name="eng-eus.bilingual.bin"/>
@@ -303,8 +303,8 @@
 
   <mode name="eng-eus-gen-morf" install="no">
     <pipeline>
-      <program name="matxin-stanford -f">
-        <file name="eng-eus.cfg"/>
+      <program name="matxin-stanford -chunkRules">
+        <file name="eng-eus.chunk_rules.dat"/>
       </program>
       <program name="matxin-xfer-lex"> 
         <file name="eng-eus.bilingual.bin"/>
@@ -353,8 +353,8 @@
 
   <mode name="eng-eus" install="yes">
     <pipeline>
-      <program name="matxin-stanford -f">
-        <file name="eng-eus.cfg"/>
+      <program name="matxin-stanford -chunkRules">
+        <file name="eng-eus.chunk_rules.dat"/>
       </program>
       <program name="matxin-xfer-lex"> 
         <file name="eng-eus.bilingual.bin"/>
