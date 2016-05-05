@@ -1,0 +1,28 @@
+num!=''/num	type!='adi-kat'/num	no-overwrite
+def!=''/def	type!='adi-kat'/def	no-overwrite
+def='[MG]'/def	type!='adi-kat'/def	overwrite
+per!=''/per	type!='adi-kat'/per	no-overwrite
+cas!=''/cas	/cas	concat
+cas!=''/ref	/casref	concat
+cas!=''/alloc	/casalloc	concat
+vpost!=''/vpost	/vpost	concat
+vpost!=''/ref	/vpostref	concat
+vpost!=''/alloc	/vpostalloc	concat
+spost!=''/spost	/spost	concat
+spost!=''/ref	/spostref	concat
+spost!=''/alloc	/spostalloc	concat
+prep!=''/prep	/prep	concat
+prep!=''/ref	/casref	concat
+prep!=''/alloc	/casalloc	concat
+lem='' && prep='' && sub='' && cas=''/ref	/casref	concat
+lem='' && prep='' && sub='' && cas=''/alloc	/casalloc	concat
+pos!=''/pos	/headpos	no-overwrite
+lem!=''/lem	/headlem	no-overwrite
+sem!=''/sem	/headsem	no-overwrite
+pos='[Z]' && lem!='1'/pos	/leafpos	overwrite
+pos='[Z]'/'[MG]'	/def	overwrite
+pos='[Zu]'/'[MG]'	/def	overwrite
+
+
+lema='.not.'/'adi-kat-ez'	type='adi-kat'/type	overwrite
+pos='[DET][NOLGAL]'/'gal'	/mota	overwrite

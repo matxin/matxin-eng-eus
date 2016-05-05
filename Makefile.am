@@ -7,10 +7,11 @@ PREFIX1=$(LANG1)-$(LANG2)
 
 BASENAME=matxin-$(PREFIX1)
 
+#	       $(PREFIX1).cfg 
+
 TARGETS_COMMON=$(PREFIX1).verb_transfer.fst \
 	       $(PREFIX1).bilingual.bin \
 	       $(PREFIX1).changes_morph.bin \
-	       $(PREFIX1).cfg \
  	       $(PREFIX1).changes_sint.dat \
 	       $(PREFIX1).chunk_type.dat \
 	       $(PREFIX1).chunk_rules.dat \
@@ -21,6 +22,7 @@ TARGETS_COMMON=$(PREFIX1).verb_transfer.fst \
 	       $(PREFIX1).intrachunk_move.dat \
 	       $(PREFIX1).lexical_selection.dat \
 	       $(PREFIX1).prep.dat \
+	       $(PREFIX1).semantic.dat \
 	       $(PREFIX1).morph_preproc.dat \
 	       $(PREFIX1).morph_gen.bin \
 	       $(PREFIX1).measures_gen.bin \
@@ -87,6 +89,10 @@ $(PREFIX1).measures_gen.bin: $(AP_SRC2)/$(LANG2).measures_gen.bin
 $(PREFIX1).morph_nolex.bin: $(AP_SRC2)/$(LANG2).morph_nolex.bin
 	cp $< $@
 
+$(PREFIX1).semantic.dat: $(AP_SRC2)/$(LANG2).semantic.dat
+	cp $< $@
+
+
 
 ###############################################################################
 
@@ -102,8 +108,9 @@ EXTRA_DIST= $(BASENAME).bilingual_mur.xml \
 	$(BASENAME).intrachunk_move.dat \
 	$(BASENAME).lexical_selection.dat \
 	$(BASENAME).prep.dat \
-	$(BASENAME).$(PREFIX1).cfg \
 	$(BASENAME).verb_transfer.foma
+
+#	$(BASENAME).$(PREFIX1).cfg 
 
 matxin_eng_eusdir=$(prefix)/share/matxin/$(BASENAME)
 matxin_eng_eus_srcdir=$(prefix)/share/matxin/$(BASENAME)

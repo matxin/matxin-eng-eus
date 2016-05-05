@@ -19,7 +19,7 @@
         <file name="eng-eus.bilingual.bin"/>
         <file name="eng-eus.chunk_type.dat"/> <!-- matxin-eng-eus.chunk_type.dat -->
         <file name="eng-eus.lexical_selection.dat"/> <!-- matxin-eng-eus.lexical_selection.dat -->
-        <file name="eus.semantic.dat"/> <!-- matxin-eus.semantic.dat -->
+        <file name="eng-eus.semantic.dat"/> <!-- matxin-eus.semantic.dat -->
       </program>
     </pipeline>
   </mode>
@@ -344,6 +344,7 @@
       </program>
       <program name="matxin-gen-morf"> 
         <file name="eng-eus.changes_morph.bin"/>
+        <file name="eng-eus.morph_preproc.dat"/>
         <file name="eng-eus.morph_gen.bin"/>
         <file name="eng-eus.measures_gen.bin"/>
         <file name="eng-eus.morph_nolex.bin"/>
