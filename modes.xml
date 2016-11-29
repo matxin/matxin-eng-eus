@@ -80,8 +80,8 @@
       </program>
       <program name="matxin-xfer-adpos"> 
         <file name="eng-eus.prep.dat"/> 
-        <file name="eus.verb_subcat.dat"/> 
-        <file name="eus.verb_noun_subcat.dat"/> 
+        <file name="eng-eus.verb_subcat.dat"/> 
+        <file name="eng-eus.verb_noun_subcat.dat"/> 
       </program>
     </pipeline>
   </mode>
@@ -105,8 +105,8 @@
       </program>
       <program name="matxin-xfer-adpos"> 
         <file name="eng-eus.prep.dat"/> 
-        <file name="eus.verb_subcat.dat"/> 
-        <file name="eus.verb_noun_subcat.dat"/> 
+        <file name="eng-eus.verb_subcat.dat"/> 
+        <file name="eng-eus.verb_noun_subcat.dat"/> 
       </program>
       <program name="matxin-xfer-inter"> 
         <file name="eng-eus.interchunk_move2.dat"/> <!--matxin-eng-eus.interchunk_move2.dat-->
@@ -133,8 +133,8 @@
       </program>
       <program name="matxin-xfer-adpos"> 
         <file name="eng-eus.prep.dat"/> 
-        <file name="eus.verb_subcat.dat"/> 
-        <file name="eus.verb_noun_subcat.dat"/> 
+        <file name="eng-eus.verb_subcat.dat"/> 
+        <file name="eng-eus.verb_noun_subcat.dat"/> 
       </program>
       <program name="matxin-xfer-inter"> 
         <file name="eng-eus.interchunk_move2.dat"/> <!--matxin-eng-eus.interchunk_move2.dat-->
@@ -164,8 +164,8 @@
       </program>
       <program name="matxin-xfer-adpos"> 
         <file name="eng-eus.prep.dat"/> 
-        <file name="eus.verb_subcat.dat"/> 
-        <file name="eus.verb_noun_subcat.dat"/> 
+        <file name="eng-eus.verb_subcat.dat"/> 
+        <file name="eng-eus.verb_noun_subcat.dat"/> 
       </program>
       <program name="matxin-xfer-inter"> 
         <file name="eng-eus.interchunk_move2.dat"/> <!--matxin-eng-eus.interchunk_move2.dat-->
@@ -198,8 +198,8 @@
       </program>
       <program name="matxin-xfer-adpos"> 
         <file name="eng-eus.prep.dat"/> 
-        <file name="eus.verb_subcat.dat"/> 
-        <file name="eus.verb_noun_subcat.dat"/> 
+        <file name="eng-eus.verb_subcat.dat"/> 
+        <file name="eng-eus.verb_noun_subcat.dat"/> 
       </program>
       <program name="matxin-xfer-inter"> 
         <file name="eng-eus.interchunk_move2.dat"/> <!--matxin-eng-eus.interchunk_move2.dat-->
@@ -235,8 +235,8 @@
       </program>
       <program name="matxin-xfer-adpos"> 
         <file name="eng-eus.prep.dat"/> 
-        <file name="eus.verb_subcat.dat"/> 
-        <file name="eus.verb_noun_subcat.dat"/> 
+        <file name="eng-eus.verb_subcat.dat"/> 
+        <file name="eng-eus.verb_noun_subcat.dat"/> 
       </program>
       <program name="matxin-xfer-inter"> 
         <file name="eng-eus.interchunk_move2.dat"/> <!--matxin-eng-eus.interchunk_move2.dat-->
@@ -276,8 +276,8 @@
       </program>
       <program name="matxin-xfer-adpos"> 
         <file name="eng-eus.prep.dat"/> 
-        <file name="eus.verb_subcat.dat"/> 
-        <file name="eus.verb_noun_subcat.dat"/> 
+        <file name="eng-eus.verb_subcat.dat"/> 
+        <file name="eng-eus.verb_noun_subcat.dat"/> 
       </program>
       <program name="matxin-xfer-inter"> 
         <file name="eng-eus.interchunk_move2.dat"/> <!--matxin-eng-eus.interchunk_move2.dat-->
@@ -320,8 +320,8 @@
       </program>
       <program name="matxin-xfer-adpos"> 
         <file name="eng-eus.prep.dat"/> 
-        <file name="eus.verb_subcat.dat"/> 
-        <file name="eus.verb_noun_subcat.dat"/> 
+        <file name="eng-eus.verb_subcat.dat"/> 
+        <file name="eng-eus.verb_noun_subcat.dat"/> 
       </program>
       <program name="matxin-xfer-inter"> 
         <file name="eng-eus.interchunk_move2.dat"/> <!--matxin-eng-eus.interchunk_move2.dat-->
@@ -371,8 +371,8 @@
       </program>
       <program name="matxin-xfer-adpos"> 
         <file name="eng-eus.prep.dat"/> 
-        <file name="eus.verb_subcat.dat"/> 
-        <file name="eus.verb_noun_subcat.dat"/> 
+        <file name="eng-eus.verb_subcat.dat"/> 
+        <file name="eng-eus.verb_noun_subcat.dat"/> 
       </program>
       <program name="matxin-xfer-inter"> 
         <file name="eng-eus.interchunk_move2.dat"/> <!--matxin-eng-eus.interchunk_move2.dat-->

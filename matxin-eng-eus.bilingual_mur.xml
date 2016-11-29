@@ -18399,7 +18399,7 @@
 	<e><p><l>potable</l><r>edabe</r></p><par n='NN_IZE_ARR'/><p><l/><r></r></p></e>
 	<e><p><l>potash</l><r>potasa_kaustiko</r></p><par n='NN_ADJ_IZO'/><p><l/><r></r></p></e>
 	<e><p><l>potassium</l><r>potasio</r></p><par n='NN_IZE_ARR'/><p><l/><r></r></p></e>
-	<e><p><l>potato</l><r>patata</r></p><par n='NN_ADJ_IZL'/><p><l/><r></r></p></e>
+	<e><p><l>potato</l><r>patata</r></p><par n='NN_IZE_ARR'/><p><l/><r></r></p></e>
 	<e><p><l>potency</l><r>indar</r></p><par n='NN_IZE_ARR'/><p><l/><r></r></p></e>
 	<e><p><l>potent</l><r>boteretsu</r></p><par n='JJ_ADJ_IZO'/><p><l/><r></r></p></e>
 	<e><p><l>potential</l><r>izan_litekeen</r></p><par n='JJ_IZE_ARR'/><p><l/><r></r></p></e>
@@ -27039,6 +27039,9 @@
 	<e><p><l>so_to_speak</l><r>nolabait_esateko</r></p><par n='RR_ADJ_IZL'/><p><l/><r></r></p></e>
 	<e><p><l>sooner_or_later</l><r>lehenago_edo_beranduago</r></p><par n='RR_ADB_ADOARR'/><p><l/><r></r></p></e>
 	<e><p><l>ad_lib</l><r>bat-bateko</r></p><par n='NN_ADJ'/><p><l/><r></r></p></e>
+
+	<e><p><l>Russia</l><r>Errusia</r></p><par n='NNP_IZE_ARR'/><p><l/><r></r></p></e>
+	<e><p><l>Dostoevsky</l><r>Dostoevsky</r></p><par n='NNP_IZE_ARR'/><p><l/><r></r></p></e>
   </section>
   <section id="automatikoa" type="standard">
 	<e><re>@[a-zA-ZÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûü_/0-9\-]+</re><par n='NN_IZE_ARR'/></e>

@@ -20,6 +20,8 @@ TARGETS_COMMON=$(PREFIX1).verb_transfer.fst \
 	       $(PREFIX1).interchunk_move3.dat \
 	       $(PREFIX1).interchunk_order.dat \
 	       $(PREFIX1).intrachunk_move.dat \
+	       $(PREFIX1).verb_noun_subcat.dat \
+	       $(PREFIX1).verb_subcat.dat \
 	       $(PREFIX1).lexical_selection.dat \
 	       $(PREFIX1).prep.dat \
 	       $(PREFIX1).semantic.dat \
@@ -73,9 +75,16 @@ $(PREFIX1).lexical_selection.dat: $(BASENAME).lexical_selection.dat
 $(PREFIX1).prep.dat: $(BASENAME).prep.dat
 	cp $< $@
 
+
 #
 #
 #
+
+$(PREFIX1).verb_noun_subcat.dat: $(AP_SRC2)/$(LANG2).verb_noun_subcat.dat
+	cp $< $@
+
+$(PREFIX1).verb_subcat.dat: $(AP_SRC2)/$(LANG2).verb_subcat.dat
+	cp $< $@
 
 $(PREFIX1).morph_preproc.dat: $(AP_SRC2)/matxin-$(LANG2).morph_preproc.dat
 	cp $< $@

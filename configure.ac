@@ -212,16 +212,6 @@ then
   AC_MSG_ERROR([lt-comp not found. You may want to adjust your PATH.])
 fi
 
-AC_PATH_PROG(DICC2PHON, dicc2phon, no)
-if test x$ac_cv_path_DICC2PHON = x
-then
-  AC_MSG_ERROR([dicc2phon not found. You may want to adjust your PATH.])
-fi
-if test x$ac_cv_path_DICC2PHON = xno
-then
-  AC_MSG_ERROR([dicc2phon not found. You may want to adjust your PATH.])
-fi
-
 AC_PATH_PROG(FOMA, foma, no)
 if test x$ac_cv_path_FOMA = x
 then
